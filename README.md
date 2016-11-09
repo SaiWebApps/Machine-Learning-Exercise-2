@@ -37,9 +37,17 @@ Files Included In This Exercise
 * costFunctionReg.m - Logistic Regression Cost Function (Regularized)
 
 -------------
-Basic Concepts
+Basic Equations
 -------------
 
+#### Logistic Regression Hypothesis Function - Sigmoid
+![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionHypothesis.png)
+
+#### Logistic Regression Cost Function (Unregularized)
+![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionCostFunction.png)
+
+#### Logistic Regression Cost Function (Regularized)
+![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionCostFunctionReg.png)
 
 -------------
 References
