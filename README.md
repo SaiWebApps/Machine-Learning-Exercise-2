@@ -37,8 +37,17 @@ Files Included In This Exercise
 * costFunctionReg.m - Logistic Regression Cost Function (Regularized)
 
 -------------
-Basic Equations
+Essential Concepts
 -------------
+#### Terminology
+* m = number of training examples
+* n = number of features
+* <img src="https://latex.codecogs.com/gif.latex?\Theta" title="\Theta" /> = hypothesis function weights; parameters
+* x = input
+* y = actual output
+* <img src="https://latex.codecogs.com/gif.latex?h_\Theta(x)" title="h_\Theta(x)" /> = prediction; output of hypothesis function
+* <img src="https://latex.codecogs.com/gif.latex?x^{(i)}_j" title="x^{(i)}_j" /> = input for training example i, feature j
+* <img src="https://latex.codecogs.com/gif.latex?y^{(i)}" title="y^{(i)}" /> = output for training example i
 
 #### Logistic Regression Hypothesis Function - Sigmoid
 <img src="https://latex.codecogs.com/gif.latex?h_\Theta(x)&space;=&space;g(\Theta^Tx)&space;=&space;\frac{1}{1&plus;e^{-\Theta^Tx}}" title="h_\Theta(x) = g(\Theta^Tx) = \frac{1}{1+e^{-\Theta^Tx}}" />
