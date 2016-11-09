@@ -41,13 +41,13 @@ Basic Equations
 -------------
 
 #### Logistic Regression Hypothesis Function - Sigmoid
-![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionHypothesis.png)
+<img src="https://latex.codecogs.com/gif.latex?h_\Theta(x)&space;=&space;g(\Theta^Tx)&space;=&space;\frac{1}{1&plus;e^{-\Theta^Tx}}" title="h_\Theta(x) = g(\Theta^Tx) = \frac{1}{1+e^{-\Theta^Tx}}" />
 
 #### Logistic Regression Cost Function (Unregularized)
-![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionCostFunction.png)
+<img src="https://latex.codecogs.com/gif.latex?J(\Theta)&space;=&space;-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}*log(h_\Theta(x^{(i)}))&space;&plus;&space;(1-y^{(i)})*log(1-h_\Theta(x^{(i)}))" title="J(\Theta) = -\frac{1}{m}\sum_{i=1}^{m}y^{(i)}*log(h_\Theta(x^{(i)})) + (1-y^{(i)})*log(1-h_\Theta(x^{(i)}))" />
 
 #### Logistic Regression Cost Function (Regularized)
-![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionCostFunctionReg.png)
+<img src="https://latex.codecogs.com/gif.latex?J(\Theta)&space;=&space;[-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}*log(h_\Theta(x^{(i)}))&space;&plus;&space;(1-y^{(i)})*log(1-h_\Theta(x^{(i)}))]&space;&plus;&space;[\frac{\lambda}{2m}\sum_{j=1}^{n}\Theta_j^2]" title="J(\Theta) = [-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}*log(h_\Theta(x^{(i)})) + (1-y^{(i)})*log(1-h_\Theta(x^{(i)}))] + [\frac{\lambda}{2m}\sum_{j=1}^{n}\Theta_j^2]" />
 
 #### Gradient Descent (Unregularized)
 
