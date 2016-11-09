@@ -3,54 +3,47 @@ Coursera Machine Learning Exercise #2
 
 Supervised Learning - Classification Problems (Logistic Regression Model)
 
-----------
+-----------
 Prerequisites
 -----------
 <img src="https://www.gnu.org/software/octave/images//logo.png" width="25" height="25" /> GNU Octave 4.0.0+
 
-<img src="http://itprocurement.unl.edu/software_product_images/matlablogo.jpg" width="200"/>
+<img src="http://itprocurement.unl.edu/software_product_images/matlablogo.jpg" width="100" />
 
-----------
+-------------
 Files Included In This Exercise
 -------------
 
 #### Drivers (Main Files)
-* ex2.m
-* ex2_reg.m
-* submit.m
+* ex2.m - Run non-regularized logistic regression model.
+* ex2_reg.m - Run regularized logistic regression model.
+* submit.m - Submit code to Coursera grader.
 
 #### Datasets
-* ex2data1.txt
-* ex2data2.txt
+* ex2data1.txt - Used in ex2.m
+* ex2data2.txt - Used in ex2_reg.m
 
 #### Plotting Functions
-* plotData.m
-* plotDecisionBoundary.m
+* plotData.m - Plot 2D classification data.
+* plotDecisionBoundary.m - Plot classifier's decision boundary.
 
 #### Logistic Regression Functions
-* sigmoid.m
-* predict.m
-* costFunction.m
+* sigmoid.m - Logistic Regression Hypothesis Function
+* predict.m - Logistic Regression Prediction Function
+* costFunction.m - Logistic Regression Cost Function (Unregularized)
 
 #### Regularization Functions
-* mapFeature.m
-* costFunctionReg.m
+* mapFeature.m - Function to generate polynomial features, thereby necessitating regularization.
+* costFunctionReg.m - Logistic Regression Cost Function (Regularized)
 
-----------
-Execution
+-------------
+Basic Concepts
 -------------
 
-```
->> ex2
-```
-Run plotData, sigmoid, predict, and costFunction functions.
 
-```
->> ex2_reg
-```
-Run plotDecisionBoundary and costFunctionReg functions.
-
-```
->> submit
-```
-Submit code to Coursera grader. Will be prompted for username and submission token.
+-------------
+References
+-------------
+* [Coursera Machine Learning Exercise #2 Instructions](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/ex2.pdf)
+* GNU Octave Documentation
+* Matlab Documentation
