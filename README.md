@@ -49,6 +49,22 @@ Basic Equations
 #### Logistic Regression Cost Function (Regularized)
 ![](https://github.com/SaiWebApps/Machine-Learning-Exercise-2/blob/master/img/logisticRegressionCostFunctionReg.png)
 
+#### Gradient Descent (Unregularized)
+
+*For j = [0, n]:*
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta_j&space;:=&space;\Theta_j&space;-&space;\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)})&space;-&space;y^{(i)})x^{(i)}_j" title="\Theta_j := \Theta_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)}) - y^{(i)})x^{(i)}_j" />
+
+#### Gradient Descent (Regularized)
+
+*For j = 0:*
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta_0&space;:=&space;\Theta_0&space;-&space;\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)})&space;-&space;y^{(i)})x^{(i)}_j" title="\Theta_0 := \Theta_0 - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)}) - y^{(i)})x^{(i)}_j" />
+
+*For j = [1,n]:*
+
+<img src="https://latex.codecogs.com/gif.latex?\Theta_j&space;:=&space;\Theta_j&space;-&space;\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)})&space;-&space;y^{(i)})x^{(i)}_j&space;&plus;&space;\frac{\lambda}{m}\Theta_j" title="\Theta_j := \Theta_j - \alpha\frac{1}{m}\sum_{i=1}^{m}(h_\Theta(x^{(i)}) - y^{(i)})x^{(i)}_j + \frac{\lambda}{m}\Theta_j" />
+
 -------------
 References
 -------------
